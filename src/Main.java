@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        add(2, 3);
-        multiply(5, 6);
+        System.out.printf(add(2, 3)+"");
+        System.out.println(multiply(5, 6)+"");
     }
 
     private static int multiply(int i, int i1) {
